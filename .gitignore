@@ -1,0 +1,24 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Generated NetGuardian Mini output
+data/investigation_result.json
+

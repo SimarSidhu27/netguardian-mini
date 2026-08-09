@@ -1,0 +1,7 @@
+{
+  "incident_id" : "Inc-001",
+  "site" : "Toronto",
+  "device" : "Tor-R1",
+  "description" : "Users can't reach CRM application",
+  "severity" : "High"
+}
