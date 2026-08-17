@@ -48,13 +48,13 @@ One Cisco advisory may contain multiple CVEs. One advisory may also apply to mul
 ## Architecture
 
 ```mermaid
-flowchart TD
-    A["Cisco Catalyst Center"] --> B["Device inventory collector"]
-    C["Cisco PSIRT OpenVuln API"] --> D["Advisory cache"]
-    B --> E["Impact engine"]
+graph TD
+    A[Cisco Catalyst Center] --> B[Device Inventory Collector]
+    C[Cisco PSIRT OpenVuln API] --> D[Advisory Cache]
+    B --> E[Impact Engine]
     D --> E
-    E --> F["Assessment JSON"]
-    F --> G["Streamlit dashboard"]
+    E --> F[Assessment JSON]
+    F --> G[Streamlit Dashboard]
 ```
 
 ## Assessment Workflow
