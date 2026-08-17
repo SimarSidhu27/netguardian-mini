@@ -23,4 +23,5 @@ Thumbs.db
 data/investigation_result.json
 data/psirt_advisories.json
 data/device_inventory_snapshot.json
+data/vulnerability_assessment.json
 
